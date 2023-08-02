@@ -1,0 +1,67 @@
+/* header */
+header {
+    background:aqua;
+    width:calc(100% - 60px);
+    height:100px;
+    margin:0 auto;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    align-items:center
+}
+header h1 {
+    width:213px; height:30px;
+}
+header h1 a {}
+header h1 a img {width:100%}
+header .right {
+    display:flex;
+    flex-flow:row nowrap;
+    align-items:center;
+}
+header .right .lang {
+    font-size:1.250rem;
+    font-weight:500;
+    margin-right:20px;
+}
+header .right #searchFrm {
+    background:#A1A1A1;
+    width:330px;
+    border-radius:10px;
+    margin-right:20px;
+}
+header .right #searchFrm fieldset {
+    height:35px; padding:5px 15px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between; 
+    align-items:center;
+}
+header .right #searchFrm fieldset #search_input {
+    background:none;
+    color:#fff; /* 작성할때 글자색 */
+}
+header .right #searchFrm fieldset #search_input::placeholder {
+    color:#fff; /*placeholder 글자색 */
+}
+header .right #searchFrm fieldset #searchBtn {
+    width:24px; height:24px;
+    background:none;
+}
+header .right #searchFrm fieldset #searchBtn img{
+    width:100%;
+}
+header .right #login {
+    width:35px; height:35px;
+    margin-right:20px;
+}
+header .right #login img {width:100%}
+header .right #cart {
+    width:35px; height:35px;
+    margin-right:20px;
+}
+header .right #cart img {width:100%}
+header .right #nav {
+    width:35px; height:35px;
+}
+header .right #nav img {width:100%}
