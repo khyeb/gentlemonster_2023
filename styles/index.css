@@ -1,0 +1,99 @@
+/* main */
+main {
+}
+/* main - 1. visual */
+main .visual {
+    position:relative;
+    height:100vh; overflow:hidden;
+}
+main .visual .txt {
+    /* background:gold; */
+    width:100%; top:30%;
+    position:absolute;
+    text-align:center;
+    z-index:900;
+}
+main .visual .txt p,
+main .visual .txt h1{
+    margin-bottom:30px;
+    color:#f5f5f5
+}
+main .visual .txt p {
+    font-size:2.369rem;
+}
+main .visual .txt h1 {
+    font-size:3.157rem;
+    font-weight:700;
+}
+main .visual .txt .link {
+    position:relative;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:center;   
+}
+main .visual .txt .link a {
+    /* display:flex;
+    flex-flow:row nowrap;
+    justify-content:center;
+    align-items:center; */
+    display:block;
+    width:217px;
+    padding:20px 0;
+    border-radius:10px;
+    margin-right:10px;
+    background:linear-gradient(90deg,rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(255,138,0,0.4));
+    background-size:300%;
+    color:#f5f5f5;
+    font-size:1.777rem;
+    transition:all 1s;
+}
+main .visual .txt .link a:hover {
+    background-position:100% 0;
+}
+main .visual .txt .link a:nth-child(2){
+    margin-right:0;
+}
+main .visual video {
+    width:100%;
+    /* 화면크기 조정 시  비디오 중심축 맞추기 */
+    /* 필수 조건 ★ 비디오의 부모가 vh or 높이설정 준비!*/
+    position:absolute; left:50%;
+    transform:translateX(-50%)
+    /*방법3 절대크기값*/
+    /* width:1920px; */
+}
+/* 와이드 비율의 video  화면 전체 배치시 여백 해결법 */
+/* 1. 반응형 웹 @media 특정 해상도마다 비디오의 크기 설정값 변경 */
+/* 2. 가장큰 데스크탑 기준으로 너비를 100% 보다 크게 설정하고 넘치게 하는 방법 */
+/* 3.상대크기가 아닌 절대크기값(px)크기를 설정해서 화면 해상도에 영향을 받지 않는 방법 */
+main .adver_bnr {
+    width:100%; height:300px;
+    background:url(../images/gentle_bnr1.jpg) no-repeat;
+    background-size:cover;
+}
+main .adver_bnr .txt {
+    text-align: center;
+}
+main .adver_bnr .txt p {
+    font-size:2.369rem;
+    letter-spacing:-0.02em;
+}
+main .adver_bnr .txt h1 {
+    font-size:3.157rem;
+    font-weight:700;
+    letter-spacing:-0.02em;
+}
+main .adver_bnr .txt .link {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:center;
+
+}
+main .adver_bnr .txt .link a {
+    display:block;
+    width:120px;
+    font-size:1.333rem;
+    letter-spacing:-0.02em;
+    border:1px solid #000;
+    padding:10px 0;
+}
