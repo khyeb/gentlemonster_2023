@@ -139,3 +139,35 @@ header #open_nav nav a:hover{
     color:#fff;
     background:#FF8A00;
 }
+footer .f_menu {
+    padding:20px 0 50px;
+    display:flex;
+}
+
+footer .f_menu dl{
+    margin-right: 107px;
+}
+footer .f_menu dl dt {
+    font-weight:500;
+    margin-bottom:28px;
+}
+footer .f_menu dl dd {
+    margin-bottom:20px;
+}
+footer {
+    width:calc(100% - 60px); margin: 0 auto;
+}
+footer .address_warp {
+    display:flex;
+}
+footer .address_warp .logo {
+    width:213px;
+}
+footer .address_warp .logo img {width:100%}
+footer .address_warp address {
+    margin:0 0 20px 32px;
+    line-height:30px;
+}
+footer .address_warp address a {
+    text-decoration: underline;
+}
