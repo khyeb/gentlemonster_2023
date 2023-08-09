@@ -1,0 +1,113 @@
+main {
+    width:calc(100% - 60px);
+    margin:0 auto;
+    padding-top:159px;
+}
+main .login_wrap {
+    letter-spacing:-0.02em;
+    margin:0 auto;
+    padding:50px 0;
+    max-width:516px;
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    align-items: center;
+    background:aqua;
+    border:1px solid #aaa;
+}
+main .login_wrap p {
+    width:213px;
+    margin-bottom:30px;
+}
+main .login_wrap p img {width:100%}
+main .login_wrap form {
+    margin-bottom:30px;
+    background:yellow;
+}
+main .login_wrap form fieldset {
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+}
+main .login_wrap form fieldset #mail_input {
+    padding:0 20px; margin-bottom:12px;
+    width:446px; height:42px;
+}
+main .login_wrap form fieldset .pw_wrap {
+    position: relative;
+}
+main .login_wrap form fieldset .pw_wrap #password_input {
+    padding:0 20px; margin-bottom:12px;
+    width:446px; height:42px;
+}
+main .login_wrap form fieldset .pw_wrap #pw_viewBtn {
+    position:absolute; bottom:22px; right:10px;
+    background:none;
+}
+main .login_wrap form fieldset .pw_wrap #pw_viewBtn img {}
+main .login_wrap form fieldset label{
+    margin-bottom:48px;
+}
+main .login_wrap form fieldset label #mail_save {
+    appearance:none;
+}
+main .login_wrap form fieldset label span {
+    font-weight:500;
+    display:inline-block;
+    background:url(../images/no_check.png) no-repeat;
+    padding-left:21px;
+}
+main .login_wrap form fieldset label #mail_save:checked+span{
+    background:url(../images/check.png) no-repeat;
+}
+
+main .login_wrap form fieldset #loginBtn {
+    width:446px; padding:20px 0;
+    background:#222;
+    font-size:1.777rem;
+    color:#fff;
+}
+main .find_wrap {
+    margin-bottom:59px;
+}
+main .find_wrap > a {}
+main .find_wrap a::after {
+    position: relative; top:2px;
+    display:inline-block;
+    content:'';
+    width:1px; height:18px;
+    background:#aaa;
+    margin:0 20px;
+}
+main .find_wrap a:last-child::after{
+    display:none;
+    margin-right:0;
+}
+main .find_wrap a img {}
+main .find_wrap a span {
+    margin-left:10px;
+}
+main .sns {
+    display:flex;
+    flex-flow:row nowrap;
+    margin-bottom:30px;
+}
+main .sns a {
+    display:flex;
+    flex-flow:column nowrap;
+    text-align:center;
+    margin-right:90px;
+}
+main .sns a:last-child{
+    margin-right:0;
+}
+main .sns a img {}
+main .sns a span {
+    margin-top:10px;
+}
+main .no_members {}
+main .no_members span {}
+main .no_members img {
+    position:relative;
+    top:4px
+}

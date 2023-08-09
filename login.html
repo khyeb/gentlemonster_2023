@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>LOGIN | GENTLEMONSTER</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/login.css">
+</head>
+<body>
+    <!-- header -->
+    <main>
+        <div class="login_wrap">
+            <p><img src="./images/logo.png" alt=""></p>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend class="skip">로그인</legend>
+                    <input type="text" placeholder="이메일 입력" id="mail_input">
+                    <div class="pw_wrap">
+                        <input type="password" placeholder="비밀번호 입력" id="password_input">
+                        <button type="button" id="pw_viewBtn"><img src="./images/pw_view.png" alt=""></button>
+                    </div>
+                    <label for="mail_save">
+                    <input type="checkbox" name="login_save" value="mail_save" id="mail_save"><span>이메일 저장</span>
+                    </label>
+                    <button type="submit" id="loginBtn">로그인</button>
+                </fieldset>
+            </form>
+            <div class="find_wrap">
+                <a href="#"><img src="./images/find_mail.png" alt=""><span>이메일 찾기</span></a>
+                <a href="#"><img src="./images/find_pw.png" alt=""><span>비밀번호 찾기</span></a>
+                <a href="#"><img src="./images/sign_up.png" alt=""><span>회원가입</span></a>
+            </div>
+            <div class="sns">
+                <a href="#"><img src="./images/ico_sns_apple.png" alt=""><span>애플</span></a>
+                <a href="#"><img src="./images/ico_sns_kakao.png" alt=""><span>카카오</span></a>
+                <a href="#"><img src="./images/ico_sns_naver.png" alt=""><span>네이버</span></a>
+            </div>
+            <a href="#" class="no_members"><span>비회원 주문조회</span><img src="./images/arrow_forward.png" alt=""></a>
+        </div>
+    </main>
+    <!-- footer -->
+</body>
+</html>
