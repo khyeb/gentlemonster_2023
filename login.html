@@ -6,16 +6,20 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <title>LOGIN | GENTLEMONSTER</title>
+    <!-- swiper slide -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/common.css">
     <link rel="stylesheet" href="./styles/login.css">
 </head>
 <body>
     <!-- header -->
+    <?php include ('./header.php') ?>
     <main>
         <div class="login_wrap">
             <p><img src="./images/logo.png" alt=""></p>
-            <form action="#" method="post">
+            <form action="#">
                 <fieldset>
                     <legend class="skip">로그인</legend>
                     <input type="text" placeholder="이메일 입력" id="mail_input">
@@ -43,5 +47,8 @@
         </div>
     </main>
     <!-- footer -->
+    <?php include ('./footer.php') ?>
+    <!-- header, footer 웹페이지 공통영역 적용JS -->
+    <script src="./script/common.js"></script>
 </body>
 </html>

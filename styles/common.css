@@ -164,7 +164,10 @@ footer .address_warp {
 footer .address_warp .logo {
     width:213px;
 }
-footer .address_warp .logo img {width:100%}
+footer .address_warp .logo img {
+    width:100%;
+    position:relative; top:9px
+}
 footer .address_warp address {
     width:70%;
     margin:0 0 20px 32px;
