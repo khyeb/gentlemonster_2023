@@ -1,0 +1,12 @@
+main {}
+main h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size:1.333rem;
+    font-weight:500;
+} 
+#map {
+    background:aqua;
+    width:700px; height:500px; margin:50px auto 10px;
+}
+main p {width:700px; margin:0 auto; line-height:25px;} 
